@@ -1,0 +1,12 @@
+#ifndef _CONFIG_H_
+	#define _CONFIG_H_
+	
+	#define ADC_RESOLUTION 0.00322265625	// Result of (3.3/1024) operation
+	#define ADC_OFFSET_ERROR (0.01-ADC_RESOLUTION)
+	#define VOLTMETER_DIVIDER 34
+	
+	#define AMPERMETER_AMPLIFIER 21
+	#define AMPERMETER_SHUNT_R 0.006
+	#define AMPERMETER_OFFSET 0.0865
+	
+#endif
